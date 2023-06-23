@@ -1,4 +1,3 @@
-import { gql, GraphQLClient } from 'graphql-request';
 import DragDropFile from '@/components/dragAndDropFile';
 
 export default function Home() {
@@ -7,4 +6,4 @@ export default function Home() {
       <DragDropFile />
     </main>
   );
-}
+};

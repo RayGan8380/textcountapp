@@ -38,5 +38,5 @@ const uploadFiles = async (files) => {
     return uploadedFiles;
   };
   
-  export default uploadFiles;
+export default uploadFiles;
   

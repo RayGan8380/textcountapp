@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
 import { useState, useRef } from "react";
-import uploadFiles from "../app/api/uploadFiles";
-import { countWords } from "../app/api/wordCount";
+import uploadFiles from '@/app/api/uploadFiles';
+import { countWords } from "@/app/api/wordCount";
 
 
 const DragDropFiles = () => {
@@ -117,6 +117,6 @@ const readFileContent = async (fileUrl) => {
        
     );
 
-}
+};
 
 export default DragDropFiles;
